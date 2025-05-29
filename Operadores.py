@@ -10,12 +10,12 @@ print(2 ** 3 + 3 - 7 / 1 // 4) #Se puede hacer varias operaciones en una misma l
 
 #Se puede concatenar textos con el "+"
 print("Hola " + "mundo")
-print("Hola " + 5) #No se puede concatenar diferentes variables
+# print("Hola " + 5) #No se puede concatenar diferentes variables
 print("Hola " + str(5)) #Pero si se convierte el int en un str ya se podra concatenar
 
 #Si multiplicas el texto por un int se imprimira las veces que tu le pongas
 print("Hola" * 3) #Esto imprimira "Hola" 3 veces
-print("Hola" * 2.5) #Pero solo numeros int
+# print("Hola" * 2.5) #Pero solo numeros int
 
 #Estos simbolos son para comparar
 print(3 > 4) #Esto es mayor que
